@@ -42,11 +42,8 @@ fieldset {
 button {
   padding: 0.3rem;
 }
-label {
+.contactForm label {
   font-weight: bold;
-}
-.formQuiz label {
-  font-weight: normal;
 }
 #imgBlog {
   height: 20rem;
