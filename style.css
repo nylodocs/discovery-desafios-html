@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+:root {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  padding: 2rem;
+}
+.block {
+  display: block;
+  font-size: 1.6rem;
+  margin: 2rem;
+}
+ol {
+  margin: 2rem;
+}
+h1,
+h2 {
+  margin: 0 0 2rem 0;
+}
+dd {
+  margin-left: 4rem;
+}
+form {
+  width: 100%;
+}
+fieldset {
+  padding: 1rem;
+}
+#name,
+#email {
+  width: 15%;
+}
+button {
+  padding: 0.3rem;
+}
+label {
+  font-weight: bold;
+}
+.formQuiz label {
+  font-weight: normal;
+}
+#imgBlog {
+  height: 20rem;
+  width: 40rem;
+  object-fit: cover;
+}
+blockquote {
+  margin: 1rem 0;
+}
+p {
+  margin: 1rem 0;
+}
+footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 80%;
+  color: rgb(80, 77, 77);
+}
